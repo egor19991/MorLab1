@@ -159,9 +159,10 @@ namespace MorLab1
 
 		public double function(double x)
 		{
-			return Math.Pow(x, 2) + x + Math.Sin(x);
+			//return Math.Pow(x, 2) + x + Math.Sin(x);
 			//return  2 * pow(x,2) + (16 / x);
 			//return  Math.Pow(x, 4) + 8 * Math.Pow(x, 3) - 6 * Math.Pow(x, 2) - 72*x;
+			return -4 * x * Math.Sin(x);
 		}
 
 		public double derivative(double x)
